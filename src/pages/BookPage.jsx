@@ -110,7 +110,7 @@ function BookPage() {
       {showResetModal && (
         <div className="book-reset-modal-bg">
           <div className="book-reset-modal">
-            <div className="book-reset-modal-title">確定要重製所有進度嗎？</div>
+            <div className="book-reset-modal-title">確定要重置所有進度嗎？</div>
             <div className="book-reset-modal-btns">
               <button
                 className="book-reset-cancel"
@@ -125,7 +125,7 @@ function BookPage() {
                   window.location.reload();
                 }}
               >
-                確定重製
+                重置進度
               </button>
             </div>
           </div>
